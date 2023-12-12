@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CRUD</title>
+  </head>
+  <body>
+    <div class="header">
+      <h2>Simran <span style="color: #be185d">Singh</span></h2>
+      <div class="New_Btn">
+        <button class="new">Sign In</button>
+        <button class="new">Sign Out</button>
+      </div>
+    </div>
+
+    <div class="main_container">
+      <h1>CRUD Operation with Student's Data</h1>
+      <div class="button">
+        <button class="Btn" id="add">Add</button>
+        <button class="Btn" id="read">Read</button>
+        <button class="Btn" id="del">Delete</button>
+        <button class="Btn" id="update">Update</button>
+      </div>
+    </div>
+
+    <div class="form" id="form_form">
+      <div class="form_border">
+        <h3>Enter Student Information</h3>
+        <br />
+        <form action="">
+          <input
+            id="reg"
+            type="text"
+            placeholder="Enter Registration No."
+          /><br /><br />
+          <input
+            id="name"
+            type="text"
+            placeholder="Enter Your Name"
+          /><br /><br />
+          <input
+            id="course"
+            type="text"
+            placeholder="Enter Your Course"
+          /><br /><br />
+          <input id="cgpa" type="text" placeholder="Enter Your cgpa" />
+          <br /><br />
+        </form>
+
+        <div class="form_Btn">
+          <button class="new" id="submit">Submit</button>
+          <button class="new">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
